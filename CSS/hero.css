@@ -1,4 +1,66 @@
 body{
-	background-color: red
 	margin: 0;
+	font-family: Andale Mono, monospace;
+	font-size: 20px;
+	background-color: #C9C8DC;
+	line-height: 30px;
+}
+
+header{
+	background-color: #3CCDFD;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px; 
+}
+
+header h1{
+	color: #010030;
+	font-size: 50px;
+
+}
+
+header img{
+	border: 8px solid #8D817C;
+    border-radius: 400px;
+    width: 350px;
+    height: 350px;
+}
+
+main{
+	max-width: 900px;
+	padding: 0 10px 10px;
+}
+
+main img{
+	border: 8px solid #8D817C;
+	max-width: 100%;
+}
+
+h2{
+	font-size: 32px;
+	color: #010030;
+	margin: 40px 0 0;
+}
+
+a{
+	color: #010030;
+}
+a:hover{
+	background-color: red;
+	color: white;
+}
+
+footer{
+	text-align: center;
+}
+
+p.caption{
+	color: #010030;
+	font-style: italic;
+	margin: 0;
+}
+
+li.title{
+	font-style: bold;
+	
 }
