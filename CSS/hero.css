@@ -27,13 +27,18 @@ header img{
 }
 
 main{
-	max-width: 900px;
 	padding: 0 10px 10px;
 }
 
-main img{
+img.img1{
 	border: 8px solid #8D817C;
 	max-width: 100%;
+}
+img.img2{
+	border: 8px solid #8D817C;
+	max-width: none;
+	margin: 0;	
+
 }
 
 h2{
